@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TO-DO LIST</h1>
+        <div class="box">
+            <input type="text" id="inputItems" class="entry" placeholder="Write your task to complete" />
+            <button type="button" id="addItems" class="btn">ADD</button>
+            <h2>PENDING TASKS</h2>
+            <div class="display" id="showItems">
+            </div>
+            <h2>COMPLETED TASKS</h2>
+            <div class="done" id="completedItems">
+            </div>
+            <button type="submit" class="clear"  onclick="clearcontent('showItems','completedItems')">CLEAR</button>
+        </div>
+        <script src="script.js"></script> 
+</body>
+</html>

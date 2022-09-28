@@ -1,0 +1,70 @@
+body{
+    font-family: cursive;
+    background-color: rgb(26, 25, 25);    
+}
+body h1{
+    font-size: 3rem;
+    color: rgb(4, 250, 229);
+    text-align: center;
+}
+.box{
+    width: 25rem;
+    height:27rem;
+    margin-top: -1rem;
+    margin-left: 23.5rem;
+    background-color: aliceblue;
+    border: 3rem solid thistle;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.box .entry{
+    font-size: 1rem;
+    width: 17rem;
+    height: 2rem;
+    background-color: rgb(206, 168, 168);
+    color: rgb(14, 85, 45);
+    border-radius: 1rem  ;
+    border: .2rem solid black;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+.box .btn{
+    width: 5.7rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color:palevioletred
+}
+.box .btn:hover{
+    background-color: rgb(212, 142, 165);
+}
+.box  h2{
+    text-align: center;
+    color: rgb(81, 159, 223);
+    background-color: rgb(240, 224, 196);
+    border-radius: .5rem;
+}
+.box #showItems #completedItems{
+    text-align: center;
+    color: sienna;
+}
+.box .clear{
+    font-size: 1.5rem;
+    background-color:palevioletred;
+    font-weight: 600;
+    margin-left: 9.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+.box .clear:hover{
+    background-color: rgb(212, 142, 165);
+}
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    color: rgb(255, 115, 0);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: dashed;
+}
